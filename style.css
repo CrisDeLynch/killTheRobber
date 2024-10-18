@@ -9,11 +9,18 @@ body{
     
 }
 
+
+.contentTitulo{
+    margin-top: -20px;
+    background-color: blanchedalmond;
+    border-radius: 15px;
+}
+
 .contenedor{
     display: flex;
     flex-wrap: wrap;
     columns: 3;
-    margin-top: 100px;
+    margin-top: 20px;
     height: 500px;
     max-width: 650px;
     border: 2px solid black;
