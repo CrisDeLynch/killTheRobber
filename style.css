@@ -6,6 +6,7 @@ body {
     background-repeat: no-repeat;
     background-position: end;
     background-size: 100%;
+    cursor: url('mirilla.png'), auto;
 }
 
 .contentTitulo {
