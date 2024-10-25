@@ -63,7 +63,7 @@ function mostrarObjetivo() {
 // Manejo de clics en las casillas, se añade o se quita puntuación dependiendo de la imagen
 for (let i = 1; i <= 9; i++) {
     let casilla = document.getElementById(`c${i}`);
-
+    let enemigoRandom = Math.random() * 10;
     casilla.addEventListener('click', function () {
         let enemigo = casilla.querySelector('img');
 
@@ -71,6 +71,10 @@ for (let i = 1; i <= 9; i++) {
             puntuacion++;
         } else if (enemigo.alt === 'ancianaLadron') {
             puntuacion += 3;
+            if(enemigoRandom < 2){
+                alert("Te ha hackeado la abuelita :O");
+                location.reload();
+            }
         } else if (enemigo.alt === 'Anciana') {
             puntuacion--;
         } else if (enemigo.alt === 'niñoLadron') {
