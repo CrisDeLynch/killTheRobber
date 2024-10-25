@@ -6,7 +6,7 @@ body {
     background-repeat: no-repeat;
     background-position: end;
     background-size: 100%;
-    cursor: url('mirilla.png'), auto;
+    cursor: url('nuevaMirilla.png'), auto;
 }
 
 .contentTitulo {
@@ -20,7 +20,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    box-shadow: 0px 0px 20px 8px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 20px 8px rgba(0, 0, 0, 0.75);
 }
 
 .contentTitulo h1 {
@@ -89,17 +89,14 @@ button {
     border-radius: 10px;
     background-color: orange;
     font-weight: bold;
-    box-shadow: 0px 0px 20px 8px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 20px 8px rgba(0, 0, 0, 0.75);
 }
 
-.leyenda img{
+.leyenda img {
     width: 75px;
     border: 1px solid black;
-    
 }
-td{
+
+td {
     width: 80px;
 }
-
-
-
